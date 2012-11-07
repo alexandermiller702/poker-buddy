@@ -8,7 +8,7 @@ sklansky_ratings = {
     ('77', '87s', 'Q9s', 'T8s', 'KJ', 'QJ', 'JT', '76s', '97s', 'A9s', 'A8s', 'A7s', 'A6s', 'A5s', 'A4s', 'A3s', 'A2s', '65s'): 'Group 5 (early if loose)',
     ('66', 'AT', '55', '86s', 'KT', 'QT', '54s', 'K9s', 'J8s', '75s'): 'Group 6 (mid if loose)',
     ('44', 'J9', '64s', 'T9', '53s', '33', '98', '43s', '22', 'K8s', 'K7s', 'K6s', 'K5s', 'K4s', 'K3s', 'K2s', 'T7s', 'Q8s'): 'Group 7 (late if first)',
-    ('87', 'A9', 'Q9', '76', '42s', '32s', '96s', '85s', '58', 'J7s', '65', '54', '74s', 'K9', 'T8'): 'Group 8 (blech)',
+    ('87', 'A9', 'Q9', '76', '42s', '32s', '96s', '85s', '58', 'J7s', '65', '54', '74s', 'K9', 'T8'): 'Group 8',
 }
 
 stats_rankings = \
