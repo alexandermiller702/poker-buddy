@@ -15,9 +15,6 @@ def cardmapper(val):
     >>> cardmapper(0)
     '2c'
 
-    >>> cardmapper(0)
-    '2c'
-
     >>> cardmapper(51)
     'As'
     """
@@ -157,19 +154,13 @@ def read_raw_from_stdin():
             logfile.write(l + "\n")
             line += l.strip()
             if line[-1] == '.' and line.split('|')[-1].find('=') > 0:
-#                print "processing"
                 try:
-        #            decoded_line = line.strip().decode("hex")
-        #            print decoded_line
-        
                     print('.', end='')
                     parse_update(line)
                     line = ''
                 except:
                     print(line)
                     raise
-#            else:
-#                print "continuing"
 
 def read_from_pcapy():
     import pcapy
